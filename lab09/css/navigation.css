@@ -1,0 +1,27 @@
+.menu{
+	text-align:center;
+
+}
+.menu .current {
+	background-color: #ff7f7f;
+	color: white;
+}
+.menu ul {  
+	margin: 0;
+	padding-left: 0; 
+	list-style-type: none; 
+}
+.menu li { 
+	display: inline-block; 
+} 
+.menu a { 
+	display: block; 
+	padding: 5px 10px;  
+	text-decoration: none; 
+	color: white; 
+	border: 1px dotted white;
+}
+.menu a:hover {  
+	color: #d36969; 
+	background-color: #ff5151;
+}

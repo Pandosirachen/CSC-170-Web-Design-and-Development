@@ -1,0 +1,32 @@
+.menu .is-current {
+	background-color: red;
+	color: white;
+}
+.menu {
+	grid-column: 1/3;
+	text-align: center;
+}
+
+.menu ul {  
+	margin: 0;
+	padding-left: 0; 
+	list-style-type: none; 
+}
+.menu li { 
+	display: inline-block; 
+} 
+.menu a { 
+	display: block; 
+	padding: 5px 10px;  
+	text-decoration: none; 
+	color: white; 
+	border: 1px solid white;
+}
+.menu a:hover {  
+	color: white; 
+	background-color: #804d00;
+}
+
+@media (max-width: 506px) {
+	.menu ul, .menu li { display: block; } 
+}

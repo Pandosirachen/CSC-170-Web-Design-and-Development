@@ -1,0 +1,53 @@
+
+body {
+	background-color: #92574A; 
+	color: #FCE0DA; font-family: Arial, Helvetica, sans-serif;
+}
+h2{ 
+	font-weight: normal;
+	font-size: 30px; 
+	margin-bottom:20px; 
+	border:ridge; 
+	text-align:center; 
+}
+h1{
+	font-weight: normal;
+	font-size: 60px; 
+	margin-bottom:20px;
+	text-decoration:underline; 
+	text-align:center; 
+}
+p{
+	margin-top:10px; 
+	line-height: 2;
+	font-size: 15px;
+}
+.truck{
+	color: white;
+	font-size: 20px;
+}
+.wheel{
+	color:black;
+}
+.figure{
+	color:black;
+	text-decoration:underline;
+}
+a{
+	color: purple;
+	text-decoration:underline;
+}
+
+a:visited {
+	color: black; 
+}
+a:hover { 
+	color: blue; 
+}
+h2:hover { 
+	color: red; 
+}
+a:active {
+	color : purple; 
+}
+
